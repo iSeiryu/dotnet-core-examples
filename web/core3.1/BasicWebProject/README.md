@@ -24,7 +24,7 @@ The [run](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-run) command
 dotnet BasicWebProject.dll
 ```
 
-The output of the build produces ~285 KB on Windows and ~200 KB on Ubuntu (Linux) of files that are ready to be deployed and ran on a server. The default build does not include the runtime and requires either .NET Core 3.1 SDK or Runtime to be installed on the server.
+The output of the build produces ~285 KB of files on Windows and ~200 KB on Ubuntu (Linux) that are ready to be deployed and ran on a server. The default build does not include the runtime and requires either .NET Core 3.1 SDK or Runtime to be installed on the server.
 
 There is an option to [publish](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-publish) the project for a specific environment that includes everything required for the application to run. This way .NET Core is not required to be installed on the server.
 ```powershell
