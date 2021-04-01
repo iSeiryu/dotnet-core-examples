@@ -38,3 +38,5 @@ dotnet publish --self-contained true --runtime ubuntu.18.04-x64
 # Develop
 The project is ready to be opened in [VS 2019 or above](https://visualstudio.microsoft.com/) or [VS Code](https://code.visualstudio.com/).  
 For general info on how to work with .NET Core in VS Code refer to this article: https://docs.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code
+
+[Run self contained app on Linux](https://stackoverflow.com/questions/40226032/running-a-self-contained-asp-net-core-application-on-ubuntu)
